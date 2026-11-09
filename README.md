@@ -2,7 +2,7 @@
 
 Um espaço para registrar sua jornada pelo universo sombrio de Little Nightmares!
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 O **Little Nightmares Box** é um projeto acadêmico desenvolvido como critério avaliativo na disciplina de **Banco de Dados II**, durante o segundo ano do curso técnico de Desenvolvimento de Sistemas.
 
@@ -105,7 +105,7 @@ LittleNightmaresBox/
     └── DER.brM3
 ```
 
-## ⚙️ Como executar o projeto
+## Como executar o projeto
 
 Para executar o projeto localmente, é necessário possuir:
 
