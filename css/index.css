@@ -1,0 +1,68 @@
+.cont{
+    position: fixed; 
+    width: 100vw;
+    height: 100%;
+    z-index: -1; 
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+#titulo{
+    height: 33vh;
+    margin-top: 15vh;
+    background-image: url(../images/titulo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about{
+    height: 30vh;
+    margin-top: 3vh;
+    width: 60vw;
+    margin-left: 20vw;
+    background-color: black;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+#texto{
+    font-family: SpecialElite;
+    text-align: center;
+    font-size: 3.3vh;
+    color: white;
+    display: block;
+}
+
+#buttons{
+    height: 15vh;
+    margin-top: 2vh;
+    display: flex;                
+    justify-content: center;      
+    align-items: center;
+    gap: 3vw;
+}
+
+.button{
+    height: 13vh;
+    width: 18vw;
+    background-image: url(../images/botão.jpg);
+    font-family: AmaticSC;
+    font-size: 5.5vh;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.5px;
+    text-shadow: 1px 1px 3px #000;
+    cursor: pointer;
+    text-align: center;
+    line-height: 13vh;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-image: url(../images/botãohover.jpg);
+}

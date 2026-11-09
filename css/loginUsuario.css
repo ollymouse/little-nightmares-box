@@ -1,0 +1,76 @@
+#cont{
+    background-image: url(../images/fundologin.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#form{
+    background-color: #2d3954;
+    width: 45vw;
+    height: 40vh;
+    margin-top: 40vh;
+    margin-left: 26vw;
+    border-radius: 5vh;
+    border: 1px solid white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5vh;
+    width: 65%;
+}
+label{
+    margin-top: 0.8vh;
+    font-size: 3.2vh;
+    color: #ecd77c;
+    font-family: SpecialElite;;
+}
+
+input{
+    padding: 2vh 1vw;
+    font-size: 3vh;
+    border-radius: 1vh;
+    border: 2px solid #c8b566;
+    background: #080e31;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.4vh;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ffd700;
+}
+
+button{
+    margin-top: 2.5vh;
+    padding: 2.2vh 5vw;    
+    font-size: 4vh;      
+    border-radius: 2vh;
+    border: none;
+    background: #c8b566;
+    color: #222;
+    font-family: 'AmaticSC', cursive;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ecd77c;
+    color: #161616;
+}

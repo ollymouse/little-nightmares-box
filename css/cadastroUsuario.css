@@ -1,0 +1,98 @@
+.cont{
+    height: 110vh;
+    width: 98.8vw;
+    background-image: url(../images/backgroundcadastrarusuario.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+#barrasuperior{
+    height: 23vh;
+    width: 70vw;
+    margin-top: 5vh;
+    margin-left: 15vw;
+}
+
+#form{
+    height: 75vh;
+    width: 65vw;
+    margin-left: 17.4vw;
+    background-color: #191919;
+    margin-top: 3vh;
+    border-radius: 5vh;
+    border: 2px solid #2c2c2c;
+}
+
+#fotobarra{
+    height: 23vh;
+    width: 10vw;
+    margin-top: 1vh;
+    margin-left: 6vw;
+}
+
+#textobarra{
+    margin-left: 18vw;
+    margin-top: -12vh;
+    font-family: AmaticSC;
+    font-size: 12vh;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5vh;
+    width: 65%;
+}
+
+label{
+    margin-top: 0.8vh;
+    font-size: 3.2vh;
+    color: #ecd77c;
+    font-family: SpecialElite;;
+}
+
+input{
+    padding: 2vh 1vw;
+    font-size: 3vh;
+    border-radius: 1vh;
+    border: 2px solid #c8b566;
+    background: #161616;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.4vh;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ffd700;
+}
+
+button{
+    margin-top: 2.5vh;
+    padding: 2.2vh 5vw;    
+    font-size: 4vh;      
+    border-radius: 2vh;
+    border: none;
+    background: #c8b566;
+    color: #222;
+    font-family: 'AmaticSC', cursive;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ecd77c;
+    color: #161616;
+}

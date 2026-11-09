@@ -1,0 +1,38 @@
+.cont{
+    background-image: url(../images/fundomain.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    border: 6px solid #c8b566  !important;
+    width: 100%;
+    font-family: 'AmaticSC', cursive;
+    font-size: 5vh;
+    color: white;
+    border-collapse: collapse;
+}
+
+tr{
+    border: 2px solid #c8b566; 
+    font-family: 'AmaticSC', cursive;
+    font-size: 5vh;
+    color: white;
+}
+
+th{
+    border: 2px solid #c8b566;
+    font-family: 'AmaticSC', cursive;
+    font-size: 5vh;
+    color: white;
+}
+
+td, th {
+    border: 2px solid #c8b566;
+    padding: 10px;
+}

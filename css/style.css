@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: SpecialElite;
+    src: url(../font/SpecialElite-Regular.ttf);
+}
+
+@font-face {
+    font-family: AmaticSC;
+    src: url(../font/AmaticSC-Regular.ttf);
+}
+
+@font-face{
+    font-family: JosefinSans;
+    src: url(../font/JosefinSans-VariableFont_wght.ttf);
+}
