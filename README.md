@@ -1,4 +1,4 @@
-# 🌙 Little Nightmares Box
+# Little Nightmares Box
 
 Um espaço para registrar sua jornada pelo universo sombrio de Little Nightmares!
 
@@ -10,7 +10,7 @@ A proposta consiste no desenvolvimento de um site inspirado no universo da franq
 
 O projeto integra desenvolvimento web com banco de dados relacional, utilizando PHP para a comunicação entre a aplicação e o banco de dados MySQL.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Cadastro de usuários:** criação de contas com nome, e-mail e apelido.
 - **Login:** acesso ao sistema utilizando o e-mail cadastrado.
@@ -20,7 +20,7 @@ O projeto integra desenvolvimento web com banco de dados relacional, utilizando 
 - **Registro de progresso:** possibilidade de iniciar um novo progresso selecionando um capítulo e um item colecionável.
 - **Sessões de usuário:** controle de acesso às páginas internas do sistema.
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 | Tecnologia | Aplicação |
 |---|---|
@@ -30,7 +30,7 @@ O projeto integra desenvolvimento web com banco de dados relacional, utilizando 
 | PHP | Processamento e integração com o banco de dados |
 | MySQL | Armazenamento e gerenciamento dos dados |
 
-## 🗄️ Banco de dados
+## Banco de dados
 
 O projeto utiliza o MySQL para armazenar e relacionar as informações da aplicação.
 
@@ -59,7 +59,7 @@ Os modelos conceitual e lógico foram desenvolvidos durante a elaboração do pr
 
 Os arquivos editáveis dos diagramas também estão disponíveis na pasta `MER&DER`.
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 LittleNightmaresBox/
@@ -149,7 +149,7 @@ Acesse pelo navegador:
 http://localhost/LittleNightmaresBox/
 ```
 
-## 🎓 Contexto acadêmico
+## Contexto acadêmico
 
 **Disciplina:** Banco de Dados II
 
@@ -162,5 +162,3 @@ O desenvolvimento teve como objetivo aplicar conhecimentos de modelagem de dados
 ---
 
 Desenvolvido como projeto acadêmico de Desenvolvimento de Sistemas.
-
-*Entre na escuridão... mas não vá sozinho.* 🌙
